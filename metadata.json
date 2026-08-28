@@ -1,0 +1,10 @@
+{
+  "name": "Si-Pinter App",
+  "description": "Aplikasi pengumpulan tugas siswa yang memungkinkan guru mengunggah tugas dan siswa mengirimkan pekerjaan mereka, serta dilengkapi pengingat tenggat waktu.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

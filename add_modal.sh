@@ -1,0 +1,1 @@
+sed -i '/<div className="flex h-screen w-screen overflow-hidden bg-slate-50 font-sans text-slate-700 relative">/a \      <NotificationModal\n        {...modalConfig}\n        isOpen={modalConfig.isOpen}\n        onClose={() => setModalConfig({ ...modalConfig, isOpen: false })}\n      />' src/pages/DashboardStudent.tsx

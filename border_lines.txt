@@ -1,0 +1,116 @@
+1072:          <div className="pt-8 border-t border-white/5">
+1094:          <div className="rounded-[2rem] bg-indigo-950/30 p-5 border border-white/5 shadow-inner">
+1108:        <header className="flex h-20 flex-shrink-0 items-center justify-between bg-white px-4 sm:px-6 border-b border-slate-200 sticky top-0 z-50">
+1126:              <div className="w-10 h-10 overflow-hidden rounded-full border-2 border-slate-100 flex items-center justify-center bg-blue-50 text-blue-600 font-bold text-lg">
+1168:                          <div className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-4 py-2 rounded-xl text-[10px] sm:text-xs font-bold flex items-center gap-2">
+1174:                          <div className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-4 py-2 rounded-xl text-[10px] sm:text-xs font-bold flex items-center gap-2">
+1178:                          <div className="bg-white/10 backdrop-blur-md border border-white/20 text-white px-6 py-2 rounded-xl text-[10px] sm:text-xs font-bold font-mono">
+1187:                      <div className="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
+1197:                      <div className="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
+1207:                      <div className="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
+1217:                      <div className="bg-white rounded-3xl p-5 border border-slate-100 shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
+1230:                      <div className="bg-white rounded-[2rem] p-6 border border-slate-100 shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
+1239:                          <div className="bg-slate-50 border border-slate-100 rounded-[1.5rem] p-5 text-center flex flex-col items-center justify-center min-h-[140px]">
+1244:                          <div className="bg-slate-50 border border-slate-100 rounded-[1.5rem] p-5 text-center flex flex-col items-center justify-center min-h-[140px]">
+1252:                      <div className="bg-white rounded-[2rem] p-6 border border-slate-100 shadow-sm flex flex-col h-full hover:shadow-md transition-shadow">
+1261:                          <div className="bg-slate-50 border border-slate-100 rounded-[1.5rem] p-5 flex items-center gap-5">
+1262:                            <div className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center bg-white shrink-0">
+1273:                          <div className="bg-slate-50 border border-slate-100 rounded-[1.5rem] p-5 flex items-center gap-5">
+1274:                            <div className="w-10 h-10 rounded-full border border-slate-200 flex items-center justify-center bg-white shrink-0">
+1287:                    <div className="bg-white rounded-[1.5rem] p-4 sm:p-5 border border-slate-100 shadow-sm flex items-center justify-between hover:shadow-md transition-shadow">
+1294:                      <button className="flex items-center gap-2 px-4 py-2 bg-white border border-slate-200 text-blue-600 rounded-xl text-xs font-bold hover:bg-slate-50 transition-colors">
+1300:                    <div className="bg-white rounded-[2rem] border border-slate-100 shadow-sm p-6 mt-6 hover:shadow-md transition-shadow">
+1302:                        <div className="w-10 h-10 rounded-[1rem] bg-indigo-50 flex items-center justify-center text-indigo-600 border border-indigo-100">
+1316:                          className="w-full rounded-2xl border border-slate-200 bg-slate-50 p-4 text-sm font-medium text-slate-900 placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-500/10 outline-none transition-all resize-none"
+1334:                      <div className="flex flex-col items-center text-center md:text-left md:items-end md:flex-row justify-between gap-8 pb-10 border-b border-slate-200/50">
+1347:                        <div className="inline-flex p-1.5 bg-white rounded-[1.5rem] border border-slate-200 shadow-sm shadow-slate-200/40">
+1373:                          <div className="rounded-[2.5rem] bg-white p-10 border border-slate-100 shadow-md shadow-slate-200/40">
+1394:                                    className="block w-full rounded-2xl border-0 bg-slate-50 px-6 py-5 text-indigo-950 font-bold ring-1 ring-inset ring-slate-200 focus:bg-white focus:ring-2 focus:ring-brand sm:text-sm placeholder:text-slate-300 outline-none transition-all"
+1412:                          <div className="rounded-[2.5rem] bg-white border border-slate-100 shadow-md shadow-slate-200/40 overflow-hidden">
+1415:                                <thead className="bg-[#e0f2fe] border-b border-sky-200">
+1454:                                                className="block w-full max-w-xs rounded-xl border-0 bg-white px-5 py-3 text-indigo-950 font-bold ring-2 ring-indigo-600 sm:text-sm shadow-inner"
+1494:                                              className="px-5 py-2.5 bg-white border border-slate-200 text-slate-400 hover:text-brand hover:border-brand/20 hover:bg-brand/10 rounded-xl text-[10px] font-black uppercase tracking-widest "
+1502:                                              className="px-5 py-2.5 bg-white border border-rose-100 text-rose-400 hover:text-white hover:bg-rose-500 hover:border-rose-500 rounded-xl text-[10px] font-black uppercase tracking-widest shadow-none hover:shadow-lg hover:shadow-rose-600/20"
+1522:                      <div className="flex flex-col items-center text-center md:text-left md:items-end md:flex-row justify-between gap-8 pb-10 border-b border-slate-200/50">
+1535:                            <div className="inline-flex p-1.5 bg-white rounded-[1.5rem] border border-slate-200 shadow-sm shadow-slate-200/40">
+1561:                          <div className="rounded-[2.5rem] bg-white p-10 border border-slate-100 shadow-md shadow-slate-200/40">
+1576:                                      ? "bg-rose-50 text-rose-600 border border-rose-100"
+1577:                                      : "bg-emerald-50 text-emerald-600 border border-emerald-100"
+1606:                                      className="block w-full pl-14 pr-6 py-5 rounded-2xl bg-slate-50 border-transparent focus:bg-white focus:ring-4 focus:ring-indigo-50 text-sm font-bold text-indigo-950 placeholder:text-slate-300 ring-1 ring-slate-200 transition-all outline-none"
+1625:                                      className="block w-full pl-14 pr-6 py-5 rounded-2xl bg-slate-50 border-transparent focus:bg-white focus:ring-4 focus:ring-indigo-50 text-sm font-mono font-bold text-indigo-950 placeholder:text-slate-300 ring-1 ring-slate-200 transition-all outline-none"
+1643:                                      className="block w-full pl-14 pr-10 py-5 rounded-2xl bg-slate-50 border-transparent focus:bg-white focus:ring-4 focus:ring-indigo-50 text-sm font-bold text-indigo-950 ring-1 ring-slate-200 transition-all outline-none appearance-none bg-no-repeat cursor-pointer"
+1667:                          <div className="rounded-[2.5rem] bg-indigo-50/30 p-10 border border-indigo-100 shadow-sm flex flex-col items-center justify-center text-center group transition-all hover:bg-white hover:shadow-xl hover:shadow-indigo-950/5">
+1668:                            <div className="w-24 h-24 bg-white rounded-[2rem] shadow-sm flex items-center justify-center mb-8 group-hover:scale-110 group-hover:rotate-6  duration-500 border border-indigo-50">
+1679:                            <label className="cursor-pointer group/upload flex flex-col items-center justify-center w-full h-56 border-2 border-dashed border-indigo-200 rounded-[2.5rem] bg-white hover:bg-indigo-50 hover:border-indigo-400 transition-all duration-500">
+1703:                          <div className="flex flex-col sm:flex-row items-center justify-between gap-4 bg-white p-4 rounded-3xl border border-slate-200/60 shadow-lg shadow-indigo-950/5">
+1704:                            <div className="flex-1 flex items-center gap-4 bg-slate-50 px-6 py-4 rounded-2xl border border-slate-100 w-full">
+1709:                                className="bg-transparent border-none focus:ring-0 text-sm font-bold text-indigo-950 placeholder:text-slate-400 w-full outline-none"
+1717:                          <div className="rounded-[2.5rem] bg-white border border-slate-100 shadow-xl shadow-indigo-950/5 overflow-hidden">
+1720:                                <thead className="bg-[#e0f2fe] border-b border-sky-200">
+1774:                                          <span className="inline-flex py-1.5 px-4 rounded-xl bg-indigo-50 text-indigo-600 text-[10px] font-bold uppercase tracking-widest border border-indigo-100">
+1803:                                                  className="p-3 bg-white border border-slate-200 text-slate-400 hover:text-indigo-600 hover:border-indigo-200 rounded-xl transition-all shadow-sm active:scale-95"
+1812:                                                  className="p-3 bg-white border border-rose-100 text-rose-400 hover:text-white hover:bg-rose-500 hover:border-rose-500 rounded-xl transition-all shadow-sm active:scale-95"
+1835:                      <div className="flex flex-col items-center text-center md:text-left md:items-end md:flex-row justify-between gap-8 pb-10 border-b border-slate-200/50">
+1848:                        <div className="inline-flex p-1.5 bg-white rounded-[1.5rem] border border-slate-200 shadow-sm shadow-slate-200/40">
+1870:                        <div className="bg-indigo-950 text-white px-6 py-3 rounded-2xl flex items-center gap-4 shadow-xl shadow-indigo-950/10 border border-white/5">
+1880:                          <div className="rounded-[2.5rem] bg-white p-10 border border-slate-100 shadow-xl shadow-indigo-950/5">
+1881:                            <div className="flex items-center gap-4 mb-10 pb-8 border-b border-slate-50">
+1899:                                    ? "bg-rose-50 text-rose-600 border border-rose-100"
+1900:                                    : "bg-emerald-50 text-emerald-600 border border-emerald-100"
+1921:                                            <div key={c.id} className="flex items-center justify-between bg-slate-50 border border-slate-100 p-3 rounded-xl group/chapter">
+1937:                                        className="block w-full rounded-2xl border-0 bg-slate-50 px-6 py-5 text-indigo-950 font-bold ring-1 ring-inset ring-slate-200 focus:bg-white focus:ring-2 focus:ring-indigo-600 sm:text-sm appearance-none cursor-pointer transition-all outline-none"
+1955:                                          className="block w-full rounded-2xl border-0 bg-white px-5 py-5 text-sm ring-1 ring-slate-200 font-bold focus:ring-2 focus:ring-indigo-600 outline-none placeholder:text-slate-300 placeholder:font-normal"
+1982:                                  className="block w-full rounded-2xl border-0 bg-slate-50 px-6 py-5 text-indigo-950 font-bold ring-1 ring-inset ring-slate-200 focus:bg-white focus:ring-2 focus:ring-indigo-600 sm:text-sm placeholder:text-slate-300 outline-none transition-all"
+1988:                              <div className="bg-slate-50/50 p-8 rounded-[2rem] border border-slate-100 ring-1 ring-indigo-950/5 shadow-inner">
+1989:                                <div className="flex items-center justify-between mb-8 pb-4 border-b border-slate-200/50">
+2001:                                    className="px-4 py-2 bg-white border border-slate-200 text-indigo-600 text-[10px] font-bold uppercase tracking-widest rounded-xl hover:bg-indigo-600 hover:text-white shadow-sm transition-all active:scale-95"
+2010:                                      className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm shadow-indigo-950/5 space-y-4 duration-300 hover:shadow-md"
+2040:                                          className="block w-full rounded-xl border-0 bg-slate-50 px-4 py-4 text-[11px] font-bold text-indigo-950 ring-1 ring-slate-100 focus:ring-2 focus:ring-indigo-600 appearance-none outline-none cursor-pointer transition-all"
+2062:                                              className="block w-full rounded-xl border-0 bg-slate-50 px-4 py-4 text-[11px] font-bold text-indigo-950 ring-1 ring-slate-100 focus:ring-2 focus:ring-indigo-600 outline-none transition-all"
+2114:                                className="block w-full rounded-[2.5rem] border-0 bg-slate-50 px-8 py-8 text-indigo-950 font-medium ring-1 ring-inset ring-slate-200 focus:bg-white focus:ring-2 focus:ring-indigo-600 sm:text-base placeholder:text-slate-300 leading-relaxed outline-none transition-all"
+2119:                            <div className="mt-12 flex flex-col sm:flex-row gap-6 pt-10 border-t border-slate-100">
+2134:                                  className="rounded-2xl bg-white border-2 border-slate-100 px-10 py-5 text-[11px] font-bold text-slate-400 uppercase tracking-widest hover:bg-slate-50 transition-all"
+2148:                            <div className="xl:col-span-2 rounded-[3.5rem] bg-white border border-slate-100 shadow-xl shadow-indigo-950/5 p-32 text-center">
+2149:                              <div className="w-24 h-24 bg-slate-50 rounded-[2.5rem] flex items-center justify-center mx-auto mb-10 border border-slate-100">
+2170:                                  className="group relative overflow-hidden rounded-[3rem] bg-white p-12 border border-slate-100 shadow-md shadow-indigo-950/5 hover:shadow-indigo-600/10 hover:-translate-y-1 transition-all duration-500"
+2179:                                        <div className="w-12 h-12 rounded-2xl bg-indigo-50 border border-indigo-100 flex items-center justify-center text-indigo-600 shadow-sm">
+2194:                                          className="p-3 bg-white border border-slate-200 text-slate-400 hover:text-indigo-600 hover:border-indigo-200 hover:bg-indigo-50 rounded-xl transition-all shadow-sm active:scale-95"
+2201:                                          className="p-3 bg-white border border-rose-100 text-slate-400 hover:text-rose-500 hover:bg-rose-50 rounded-xl transition-all shadow-sm active:scale-95"
+2219:                                              className="px-4 py-2 bg-indigo-50/50 text-indigo-600 text-[10px] font-bold uppercase tracking-widest rounded-xl border border-indigo-100 shadow-sm"
+2228:                                    <div className="flex items-center justify-between pt-10 border-t border-slate-100">
+2277:                      <div className="flex flex-col items-center text-center md:text-left md:items-end md:flex-row justify-between gap-8 pb-10 border-b border-slate-200/50">
+2290:                        <div className="inline-flex p-1.5 bg-white rounded-[1.5rem] border border-slate-200 shadow-sm shadow-slate-200/40">
+2316:                          <div className="flex flex-col lg:flex-row gap-6 bg-white p-8 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-indigo-950/5">
+2327:                                  className="block w-full rounded-2xl border-0 bg-slate-50 px-6 py-5 text-sm font-bold text-indigo-950 ring-1 ring-slate-100 focus:bg-white focus:ring-2 focus:ring-indigo-600 appearance-none outline-none cursor-pointer transition-all"
+2348:                                  className="block w-full rounded-2xl border-0 bg-slate-50 px-6 py-5 text-sm font-bold text-indigo-950 ring-1 ring-slate-100 focus:bg-white focus:ring-2 focus:ring-indigo-600 appearance-none outline-none cursor-pointer transition-all"
+2361:                          <div className="rounded-[3rem] bg-white border border-slate-100 shadow-2xl shadow-indigo-950/5 overflow-hidden">
+2364:                                <thead className="bg-[#e0f2fe] border-b border-sky-200">
+2454:                                                  ? "bg-emerald-50 text-emerald-600 border-emerald-100 shadow-emerald-500/10"
+2456:                                                    ? "bg-rose-50 text-rose-600 border-rose-100 shadow-rose-500/10"
+2457:                                                    : "bg-amber-50 text-amber-600 border-amber-100 italic "
+2501:                            <div className="rounded-[2.5rem] p-10 bg-white border border-slate-100 shadow-xl shadow-indigo-950/5 relative overflow-hidden group">
+2519:                            <div className="rounded-[2.5rem] p-10 bg-white border border-slate-100 shadow-xl shadow-indigo-950/5 relative overflow-hidden group">
+2547:                            <div className="rounded-[2.5rem] p-10 bg-indigo-950 text-white shadow-2xl shadow-indigo-950/10 relative overflow-hidden group border border-white/5">
+2550:                                  <div className="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-10 border border-white/10 shadow-lg group-hover:rotate-12 transition-all duration-500">
+2566:                                    className="w-full bg-white/5 border border-white/10 text-white text-[11px] font-bold uppercase tracking-widest rounded-2xl px-6 py-5 outline-none focus:ring-2 focus:ring-indigo-600 appearance-none transition-all cursor-pointer"
+2586:                          <div className="bg-white rounded-[3rem] border border-slate-100 shadow-2xl shadow-indigo-950/5 p-2 overflow-hidden">
+2589:                                <thead className="bg-[#e0f2fe] border-b border-sky-200">
+2699:                                                  <span className={`px-3 py-1.5 rounded-lg border ${Number(score) <= 75 ? "text-rose-600 bg-rose-50 border-rose-100 font-black" : "text-indigo-600 bg-indigo-50 border-indigo-100"}`}>
+2733:                      <div className="flex flex-col items-center text-center md:text-left md:items-end md:flex-row justify-between gap-8 pb-10 border-b border-slate-200/50">
+2745:                        <div className="bg-slate-50 rounded-[2.5rem] p-10 text-slate-900 shadow-sm border border-slate-200 relative overflow-hidden group">
+2754:                        <div className="bg-white/80 backdrop-blur-xl rounded-[2.5rem] p-10 border border-white shadow-sm relative group overflow-hidden">
+2760:                        <div className="col-span-1 md:col-span-2 bg-white/80 backdrop-blur-xl rounded-[2.5rem] p-10 border border-white shadow-sm flex flex-col md:flex-row justify-between gap-10">
+2784:                               className="px-8 py-4 bg-indigo-50 text-indigo-700 rounded-2xl text-[10px] font-bold uppercase tracking-widest hover:bg-indigo-100 transition-all shadow-sm border border-indigo-100"
+2792:                      <div className="bg-white/80 backdrop-blur-xl rounded-[3.5rem] border border-white p-12 lg:p-16 shadow-2xl">
+2810:                               <div key={i} className={`${item.color} p-10 rounded-[2.5rem] border border-white/50 flex flex-col items-center group hover:scale-105 transition-all duration-500 shadow-lg`}>
+2820:                              className="flex-1 flex items-center justify-center gap-4 py-8 bg-white rounded-[2.5rem] border border-slate-200 shadow-xl shadow-slate-100 hover:border-brand hover:shadow-indigo-500/10 hover:translate-y-[-2px] transition-all font-black text-xs uppercase tracking-[0.2em] text-slate-700"
+2826:                              className="flex-1 flex items-center justify-center gap-4 py-8 bg-white rounded-[2.5rem] border border-slate-200 shadow-xl shadow-slate-100 hover:border-rose-500 hover:shadow-rose-100 hover:translate-y-[-2px] transition-all font-black text-xs uppercase tracking-[0.2em] text-rose-600"
+2837:            <footer className="mt-16 pt-12 pb-12 border-t border-slate-200/60 text-center">
+2864:                  <span className="text-[11px] font-bold uppercase tracking-[0.2em] px-4 py-1.5 bg-white/10 rounded-full border border-white/10 text-indigo-100">
+2901:                          className="absolute bottom-8 right-8 bg-white text-indigo-600 rounded-xl px-6 py-3 text-xs font-bold shadow-xl opacity-0 group-hover:opacity-100 transition-all border border-indigo-50 hover:bg-indigo-600 hover:text-white"
+2908:                        <div className="mx-auto w-20 h-20 bg-white rounded-2xl flex items-center justify-center shadow-md mb-6 border border-slate-100">
+2932:                  <div className="bg-white p-10 rounded-[2.5rem] border border-slate-100 shadow-xl shadow-indigo-950/5 space-y-10">
+2949:                            className="block w-full rounded-2xl border-0 bg-slate-50 px-8 py-6 text-3xl font-display font-bold text-indigo-950 ring-1 ring-inset ring-slate-100 focus:bg-white focus:ring-2 focus:ring-indigo-600 outline-none transition-all placeholder:text-slate-200"
+2959:                            <div className="mt-4 inline-flex items-center gap-2 px-3 py-1.5 bg-emerald-50 text-emerald-600 rounded-lg border border-emerald-100">
+2976:                          className="block w-full rounded-[2rem] border-0 bg-slate-50 px-8 py-8 text-sm font-medium text-indigo-950 ring-1 ring-inset ring-slate-100 focus:bg-white focus:ring-2 focus:ring-indigo-600 outline-none transition-all placeholder:text-slate-200 leading-relaxed"
+2993:                      className="rounded-[1.75rem] bg-white border-2 border-slate-100 px-10 py-5 text-[11px] font-bold text-rose-500 uppercase tracking-widest hover:bg-rose-50 hover:border-rose-200 transition-all active:scale-95 shadow-sm"

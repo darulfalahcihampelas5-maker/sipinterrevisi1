@@ -1,0 +1,1 @@
+sed -i 's/<aside className="w-80 bg-white border-r border-slate-200 overflow-y-auto flex flex-col shrink-0 custom-scrollbar">/<aside className="w-80 bg-white border-r border-slate-200 overflow-y-auto hidden lg:flex flex-col shrink-0 custom-scrollbar">/g' src/pages/DashboardStudent.tsx

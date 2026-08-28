@@ -1,0 +1,2 @@
+sed -i 's/<img src={student?.profilePhotoUrl || "https:\/\/api.dicebear.com\/7.x\/notionists\/svg?seed=Felix"} alt="Profile" className="w-full h-full object-cover" \/>/{student?.profilePhotoUrl ? (<img src={getDriveImageUrl(student.profilePhotoUrl)} alt="Profile" className="w-full h-full object-cover" \/>) : (<div className="w-full h-full bg-[#e4e6eb] flex items-center justify-center"><User className="w-[120%] h-[120%] text-[#aeb4bb] translate-y-2" fill="currentColor" \/><\/div>)}/g' src/pages/DashboardStudent.tsx
+

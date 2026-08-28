@@ -1,0 +1,1 @@
+sed -i 's/return rawExams.filter((exam: any) => exam.kelasRef === studentKelas);/return rawExams.filter((exam: any) => !exam.kelasRef || exam.kelasRef === "SEMUA_KELAS" || exam.kelasRef === "" || exam.kelasRef === "Semua Kelas" || exam.kelasRef === studentKelas);/g' src/pages/DashboardStudent.tsx

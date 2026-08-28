@@ -1,0 +1,210 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User account information",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "role": { "type": "string", "enum": ["teacher", "student"] },
+        "displayName": { "type": "string" },
+        "nisn": { "type": "string" },
+        "kelas": { "type": "string" }
+      },
+      "required": ["uid", "email", "role"]
+    },
+    "Assignment": {
+      "title": "Assignment",
+      "description": "Homework assignment",
+      "type": "object",
+      "properties": {
+        "bab": { "type": "string" },
+        "materi": { "type": "string" },
+        "kelas": { "type": "string" },
+        "description": { "type": "string" },
+        "deadline": { "type": "string", "format": "date-time" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "teacherId": { "type": "string" }
+      },
+      "required": ["bab", "materi", "kelas", "deadline", "teacherId"]
+    },
+    "Class": {
+      "title": "Class",
+      "description": "A school class",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "createdAt"]
+    },
+    "Submission": {
+      "title": "Submission",
+      "description": "Student homework submission",
+      "type": "object",
+      "properties": {
+        "assignmentId": { "type": "string" },
+        "studentId": { "type": "string" },
+        "fileUrl": { "type": "string" },
+        "status": { "type": "string", "enum": ["submitted", "graded"] },
+        "grade": { "type": "number" },
+        "feedback": { "type": "string" },
+        "submittedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["assignmentId", "studentId", "status"]
+    },
+    "Chapter": {
+      "title": "Chapter",
+      "description": "Learning chapter",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "createdAt"]
+    },
+    "Material": {
+      "title": "Material",
+      "description": "Learning material/materi ajar",
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "subject": { "type": "string" },
+        "bab": { "type": "string" },
+        "driveUrl": { "type": "string" },
+        "order": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["title", "subject", "bab", "driveUrl"]
+    },
+    "MaterialProgress": {
+      "title": "MaterialProgress",
+      "description": "Student progress on a specific material",
+      "type": "object",
+      "properties": {
+        "materialId": { "type": "string" },
+        "studentId": { "type": "string" },
+        "status": { "type": "string", "enum": ["Belum Dimulai", "Sedang Dipelajari", "Selesai"] },
+        "isFavorite": { "type": "boolean" },
+        "lastAccessed": { "type": "string", "format": "date-time" }
+      },
+      "required": ["materialId", "studentId", "status"]
+    },
+    "FinalGrade": {
+      "title": "FinalGrade",
+      "description": "Persisted grade after submission is deleted",
+      "type": "object",
+      "properties": {
+        "assignmentId": { "type": "string" },
+        "studentId": { "type": "string" },
+        "nisn": { "type": "string" },
+        "nilai": { "type": "number" },
+        "gradedAt": { "type": "string", "format": "date-time" },
+        "hiddenByStudents": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["assignmentId", "studentId", "nisn", "nilai", "gradedAt"]
+    },
+    "Exam": {
+      "title": "Exam",
+      "description": "Dynamic online CBT exam created by teacher with AI assistance",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "subject": { "type": "string" },
+        "kelasRef": { "type": "string" },
+        "token": { "type": "string" },
+        "duration": { "type": "number" },
+        "kkm": { "type": "number" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "questions": {
+          "type": "array",
+          "items": { "type": "object" }
+        }
+      },
+      "required": ["id", "title", "subject", "kelasRef", "token", "duration", "kkm", "questions"]
+    },
+    "ChatMessage": {
+      "title": "ChatMessage",
+      "description": "Chat message between student and teacher regarding an assignment",
+      "type": "object",
+      "properties": {
+        "assignmentId": { "type": "string" },
+        "assignmentMateri": { "type": "string" },
+        "studentId": { "type": "string" },
+        "studentName": { "type": "string" },
+        "studentClass": { "type": "string" },
+        "senderId": { "type": "string" },
+        "senderRole": { "type": "string" },
+        "text": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["assignmentId", "studentId", "studentName", "studentClass", "senderId", "senderRole", "text"]
+    },
+    "GradingRubric": {
+      "title": "GradingRubric",
+      "description": "Grading rubric percentages for final report card (Nilai Rapor)",
+      "type": "object",
+      "properties": {
+        "kehadiran": { "type": "number" },
+        "tugas": { "type": "number" },
+        "uts": { "type": "number" },
+        "uas": { "type": "number" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["kehadiran", "tugas", "uts", "uas"]
+    }
+  },
+  "firestore": {
+    "config/{configId}": {
+      "schema": "GradingRubric",
+      "description": "Configuration collection including grading rubric"
+    },
+    "users/{uid}": {
+      "schema": "User",
+      "description": "User profile collection"
+    },
+    "assignments/{assignmentId}": {
+      "schema": "Assignment",
+      "description": "Assignments collection"
+    },
+    "assignments/{assignmentId}/submissions/{submissionId}": {
+      "schema": "Submission",
+      "description": "Submissions for assignment"
+    },
+    "studentsByNisn/{nisn}": {
+      "schema": "User",
+      "description": "Mapping from NISN to student"
+    },
+    "classes/{classId}": {
+      "schema": "Class",
+      "description": "Classes registered by the teacher"
+    },
+    "chapters/{chapterId}": {
+      "schema": "Chapter",
+      "description": "Chapters created by the teacher"
+    },
+    "final_grades/{gradeId}": {
+      "schema": "FinalGrade",
+      "description": "Persisted grades collection"
+    },
+    "exams/{examId}": {
+      "schema": "Exam",
+      "description": "Dynamic exams created by the teacher"
+    },
+    "materials/{materialId}": {
+      "schema": "Material",
+      "description": "Learning materials collection"
+    },
+    "material_progress/{progressId}": {
+      "schema": "MaterialProgress",
+      "description": "Student progress tracking for materials"
+    },
+    "assignment_chats/{chatMessageId}": {
+      "schema": "ChatMessage",
+      "description": "Chat messages between students and teachers about assignments"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+sed -i 's/isSidebarOpen ? "lg:w-80" : "lg:w-0 overflow-hidden border-r-0 border-none "/isSidebarOpen ? "lg:flex lg:w-80" : "lg:hidden w-0 overflow-hidden border-none"/g' src/pages/DashboardTeacher.tsx

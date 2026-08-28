@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;750;900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --font-brand: "Plus Jakarta Sans", sans-serif;
+  --font-digital: "Orbitron", monospace;
+
+  --color-brand: #6366f1; /* Indigo 500 */
+  --color-brand-light: #818cf8;
+  --color-brand-dark: #4f46e5;
+
+  --radius-xl: 1rem; /* Soften up */
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem; 
+  --radius-4xl: 3rem;
+
+  --shadow-soft:
+    0 4px 20px -2px rgba(0, 0, 0, 0.04), 0 2px 10px -2px rgba(0, 0, 0, 0.02);
+  --shadow-elegant:
+    0 20px 40px -8px rgba(0, 0, 0, 0.05), 0 8px 16px -8px rgba(0, 0, 0, 0.03);
+  --shadow-glow:
+    0 10px 30px -5px rgba(0, 0, 0, 0.1);
+}
+
+@layer base {
+  html, body {
+    color-scheme: light;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+    @apply bg-slate-50 text-slate-700 antialiased selection:bg-[#85cc00]/20 selection:text-[#85cc00];
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  #root {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  button, input, select, textarea {
+    color-scheme: light;
+    font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+  }
+
+  /* Dropdown & Select styling - ensuring neat downward expansion and high contrast readability */
+  select {
+    cursor: pointer !important;
+    color-scheme: light;
+    background-color: #ffffff;
+    color: #0f172a;
+    direction: ltr !important;
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2364748b' stroke-width='2.5'><path stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/></svg>") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 1rem center !important;
+    background-size: 1.125rem 1.125rem !important;
+    padding-right: 2.75rem !important;
+    border-radius: 0.875rem !important;
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  }
+
+  select:hover {
+    border-color: #94a3b8 !important;
+  }
+
+  select:focus {
+    border-color: #85cc00 !important;
+    outline: none !important;
+    box-shadow: 0 0 0 3px rgba(133, 204, 0, 0.25) !important;
+  }
+
+  select option {
+    background-color: #ffffff !important;
+    color: #0f172a !important;
+    padding: 12px 18px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 1.5 !important;
+    display: block !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+  }
+
+  select option:disabled {
+    color: #94a3b8 !important;
+    background-color: #f8fafc !important;
+  }
+
+  select option:hover,
+  select option:focus,
+  select option:checked {
+    background-color: #f1f5f9 !important;
+    color: #0f172a !important;
+  }
+
+  /* Custom Dropdown Container utility - ensuring neat downward stacking */
+  .dropdown-menu,
+  [role="menu"],
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0.375rem;
+    z-index: 50;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    max-height: 320px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-width: 100%;
+    width: max-content;
+  }
+
+  .dropdown-item,
+  [role="menuitem"] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.625rem 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #334155;
+    transition: all 0.15s ease;
+    cursor: pointer;
+    text-align: left;
+    white-space: normal;
+    word-break: break-word;
+  }
+
+  .dropdown-item:hover,
+  [role="menuitem"]:hover {
+    background-color: #f8fafc;
+    color: #0f172a;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    @apply tracking-tight text-slate-800 font-semibold;
+  }
+}
+
+.glass-panel {
+  @apply bg-white border border-slate-200 shadow-xl;
+}
+
+.bento-card {
+  @apply rounded-[2rem] bg-white border border-slate-200 shadow-xl hover:bg-slate-50 transition-all duration-500 hover:-translate-y-1;
+}
+
+.btn-primary {
+  @apply bg-[#85cc00] text-slate-800 font-semibold tracking-tight shadow-lg shadow-[#85cc00]/10 hover:brightness-110 active:scale-95 transition-all duration-300 border border-transparent;
+}
+
+.btn-success {
+  @apply bg-emerald-600 text-white font-semibold tracking-tight shadow-sm hover:brightness-110 active:scale-95 transition-all duration-300 border border-transparent;
+}
+
+.btn-danger {
+  @apply bg-rose-600 text-white font-semibold tracking-tight shadow-sm hover:brightness-110 active:scale-95 transition-all duration-300 border border-transparent;
+}
+
+.btn-outline {
+  @apply bg-transparent border border-slate-300 text-slate-700 font-bold tracking-tight hover:bg-slate-50 active:scale-95 transition-all duration-300;
+}
+
+@keyframes blink-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+.blink-slow {
+  animation: blink-slow 2s linear infinite;
+}
+
+/* Custom Scrollbar styling */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f8fafc;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 9999px;
+  border: 2px solid #f8fafc;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Rainbow border gradient masks for beautiful, clean colorful outlines on dashboard cards */
+.rainbow-border-2rem {
+  position: relative;
+  border: none !important;
+}
+.rainbow-border-2rem::before {
+  content: '';
+  position: absolute;
+  inset: -1.5px;
+  border-radius: 2rem;
+  padding: 1.5px;
+  background: linear-gradient(135deg, #ff453a 0%, #ff9f0a 20%, #85cc00 40%, #10b981 60%, #1877f2 80%, #a855f7 100%);
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+  z-index: 10;
+}
+
+.rainbow-border-3xl {
+  position: relative;
+  border: none !important;
+}
+.rainbow-border-3xl::before {
+  content: '';
+  position: absolute;
+  inset: -1.5px;
+  border-radius: 1.5rem;
+  padding: 1.5px;
+  background: linear-gradient(135deg, #ff453a 0%, #ff9f0a 20%, #85cc00 40%, #10b981 60%, #1877f2 80%, #a855f7 100%);
+  -webkit-mask: 
+     linear-gradient(#fff 0 0) content-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude; 
+  pointer-events: none;
+  z-index: 10;
+}
+
+
